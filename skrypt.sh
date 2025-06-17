@@ -15,3 +15,9 @@ if [ "$1" == "--logs" ]; then
   done
   echo "Utworzono $num_files plików log."
 fi
+
+if [ "$1" == "--help" ]; then
+  echo "Opcje:"
+  echo "--date    - wyświetlenie dzisiejszej daty"
+  echo "--logs [n] - utworzenie 100 plików log.txt"
+fi
